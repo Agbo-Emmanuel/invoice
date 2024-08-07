@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agbo INVOICE</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <section class="Container">
+        <section class="header_container">
+            <header>
+                <h2>INVOICE</h2>
+            </header>
+        </section>
+        <section class="other_conatiner">
+            <section class="itemDetails">
+                <article class="itemContainer">
+                    <label>Items</label>
+                    <input type="text"  class="userItem" />
+                    <label>Qty</label>
+                    <input type="number" min="0" class="userQty" />
+                    <label>Amount</label>
+                    <input type="number" min="0" class="userAmount" />
+                    <label>Date</label>
+                    <input type="date" min="2018-01-01" max="2030-01-01" class="userDate" />
+                    <button class="Btn">Add</button>
+                </article>
+         
+            </section>
+            <section class="datacontainer">
+                <table class="tabledata">
+                    <tr>
+                        <th>ITEM</th>
+                        <th>QTY</th>
+                        <th>AMOUNT</th>
+                        <th>DATE</th> 
+                    </tr>
+                    <tr>
+                        <!-- <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td> -->
+                    </tr>
+                </table>
+            </section>
+        </section>
+    </section>
+    <script src="/index.js"></script>
+</body>
+</html>
